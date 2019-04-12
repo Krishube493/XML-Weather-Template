@@ -70,6 +70,13 @@ namespace XMLWeather
 
             reader.ReadToFollowing("temperature");
             days[0].currentTemp = reader.GetAttribute("value");
+
+            reader.ReadToFollowing("speed");
+            days[0].windSpeed = reader.GetAttribute("name");
+
+            reader.ReadToFollowing("direction");
+            days[0].windDirection = reader.GetAttribute("name");
+
         }
     }
 }

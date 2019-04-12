@@ -19,6 +19,7 @@ namespace XMLWeather
 
         public void DisplayCurrent()
         {
+            Wind.Text = "Wind: " + Form1.days[0].windDirection + ", " +  Form1.days[0].windSpeed;
             tempLabel.Text = Convert.ToDouble(Form1.days[0].currentTemp).ToString("0.0") + " °C";
             cityOutput.Text = Form1.days[0].location;
             minOutput.Text = Convert.ToDouble(Form1.days[0].tempLow).ToString("0.0") + " °C";

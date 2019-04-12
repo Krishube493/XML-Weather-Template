@@ -38,6 +38,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.forecastLabel = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.Wind = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cityOutput
@@ -152,11 +153,24 @@
             this.label5.Text = "____________________________";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // Wind
+            // 
+            this.Wind.AutoSize = true;
+            this.Wind.BackColor = System.Drawing.Color.Transparent;
+            this.Wind.Font = new System.Drawing.Font("Zurich XBlk BT", 12F);
+            this.Wind.ForeColor = System.Drawing.Color.White;
+            this.Wind.Location = new System.Drawing.Point(130, 206);
+            this.Wind.Name = "Wind";
+            this.Wind.Size = new System.Drawing.Size(224, 19);
+            this.Wind.TabIndex = 43;
+            this.Wind.Text = "Wind speed + Direction ";
+            // 
             // CurrentScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.Controls.Add(this.Wind);
             this.Controls.Add(this.forecastLabel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cityOutput);
@@ -185,5 +199,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label forecastLabel;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label Wind;
     }
 }
