@@ -32,36 +32,25 @@ namespace XMLWeather
             max3.Text = Convert.ToDouble(Form1.days[3].tempHigh).ToString("0.0") + " °C";
 
             //display image of day 1 conditions
-            if (Form1.days[1].condition == "800")
+            int temp1 = Convert.ToInt32(Form1.days[1].condition);
+
+            if (temp1 == 800)
             {
                 this.pictureDay1.Image = Properties.Resources.smallSun;
             }
-            else if (Form1.days[1].condition == "200" || Form1.days[1].condition == "201" || Form1.days[1].condition == "202"
-                 || Form1.days[1].condition == "210" || Form1.days[1].condition == "211" || Form1.days[1].condition == "212"
-                 || Form1.days[1].condition == "221" || Form1.days[1].condition == "230" || Form1.days[1].condition == "231"
-                 || Form1.days[1].condition == "232")
+            else if (temp1 > 199 && temp1 < 233)
             {
                 this.pictureDay1.Image = Properties.Resources.smallStormy;
             }
-             else if (Form1.days[1].condition == "300" || Form1.days[1].condition == "301" || Form1.days[1].condition == "302"
-                  || Form1.days[1].condition == "310" || Form1.days[1].condition == "311" || Form1.days[1].condition == "312"
-                  || Form1.days[1].condition == "313" || Form1.days[1].condition == "314" || Form1.days[1].condition == "321"
-                  || Form1.days[1].condition == "500" || Form1.days[1].condition == "501" || Form1.days[1].condition == "502"
-                  || Form1.days[1].condition == "503" || Form1.days[1].condition == "504" || Form1.days[1].condition == "511"
-                  || Form1.days[1].condition == "520" || Form1.days[1].condition == "521" || Form1.days[1].condition == "522"
-                  || Form1.days[1].condition == "531")
-             {
+            else if (temp1 > 299 && temp1 < 532)
+            {
                  this.pictureDay1.Image = Properties.Resources.smallRain;
-             }
-            else if (Form1.days[1].condition == "600" || Form1.days[1].condition == "601" || Form1.days[1].condition == "602"
-                 || Form1.days[1].condition == "611" || Form1.days[1].condition == "612" || Form1.days[1].condition == "613"
-                 || Form1.days[1].condition == "615" || Form1.days[1].condition == "616" || Form1.days[1].condition == "620"
-                 || Form1.days[1].condition == "621" || Form1.days[1].condition == "622")
+            }
+            else if (temp1 > 599 && temp1 < 623)
             {
                 this.pictureDay1.Image = Properties.Resources.smallSnow;
             }
-            else if (Form1.days[1].condition == "801" || Form1.days[1].condition == "802" || Form1.days[1].condition == "803"
-                 || Form1.days[1].condition == "804")
+            else if (temp1 > 800 && temp1 < 805)
             {
                 this.pictureDay1.Image = Properties.Resources.smallCloud;
             }
@@ -71,81 +60,59 @@ namespace XMLWeather
             }
 
             //day 2 conditions 
-            if (Form1.days[2].condition == "800")
+            int temp2 = Convert.ToInt32(Form1.days[2].condition);
+
+            if (temp2 == 800)
             {
                 this.pictureDay2.Image = Properties.Resources.smallSun;
             }
-            else if (Form1.days[2].condition == "200" || Form1.days[2].condition == "201" || Form1.days[2].condition == "202"
-                 || Form1.days[2].condition == "210" || Form1.days[2].condition == "211" || Form1.days[2].condition == "212"
-                 || Form1.days[2].condition == "221" || Form1.days[2].condition == "230" || Form1.days[2].condition == "231"
-                 || Form1.days[2].condition == "232")
+            else if (temp2 > 199 && temp2 < 233)
             {
                 this.pictureDay2.Image = Properties.Resources.smallStormy;
             }
-            else if (Form1.days[2].condition == "300" || Form1.days[2].condition == "301" || Form1.days[2].condition == "302"
-                 || Form1.days[2].condition == "310" || Form1.days[2].condition == "311" || Form1.days[2].condition == "312"
-                 || Form1.days[2].condition == "313" || Form1.days[2].condition == "314" || Form1.days[2].condition == "321"
-                 || Form1.days[2].condition == "500" || Form1.days[2].condition == "501" || Form1.days[2].condition == "502"
-                 || Form1.days[2].condition == "503" || Form1.days[2].condition == "504" || Form1.days[2].condition == "511"
-                 || Form1.days[2].condition == "520" || Form1.days[2].condition == "521" || Form1.days[2].condition == "522"
-                 || Form1.days[2].condition == "531")
+            else if (temp2 > 299 && temp2 < 532)
             {
                 this.pictureDay2.Image = Properties.Resources.smallRain;
             }
-            else if (Form1.days[2].condition == "600" || Form1.days[2].condition == "601" || Form1.days[2].condition == "602"
-                 || Form1.days[2].condition == "611" || Form1.days[2].condition == "612" || Form1.days[2].condition == "613"
-                 || Form1.days[2].condition == "615" || Form1.days[2].condition == "616" || Form1.days[2].condition == "620"
-                 || Form1.days[2].condition == "621" || Form1.days[2].condition == "622")
+            else if (temp2 > 599 && temp2 < 623)
             {
                 this.pictureDay2.Image = Properties.Resources.smallSnow;
             }
-            else if (Form1.days[2].condition == "801" || Form1.days[2].condition == "802" || Form1.days[2].condition == "803"
-                 || Form1.days[2].condition == "804")
+            else if (temp2 > 800 && temp2 < 805)
             {
                 this.pictureDay2.Image = Properties.Resources.smallCloud;
             }
             else
             {
-                this.pictureDay1.Image = Properties.Resources.smallCloud;
+                this.pictureDay2.Image = Properties.Resources.smallCloud;
             }
 
             //day 3 conditions
-            if (Form1.days[3].condition == "800")
+            int temp3 = Convert.ToInt32(Form1.days[2].condition);
+
+            if (temp3 == 800)
             {
                 this.pictureDay3.Image = Properties.Resources.smallSun;
             }
-            else if (Form1.days[3].condition == "200" || Form1.days[3].condition == "201" || Form1.days[3].condition == "202"
-                 || Form1.days[3].condition == "210" || Form1.days[3].condition == "211" || Form1.days[3].condition == "212"
-                 || Form1.days[3].condition == "221" || Form1.days[3].condition == "230" || Form1.days[3].condition == "231"
-                 || Form1.days[3].condition == "232")
+            else if (temp3 > 199 && temp3 < 233)
             {
                 this.pictureDay3.Image = Properties.Resources.smallStormy;
             }
-            else if (Form1.days[3].condition == "300" || Form1.days[3].condition == "301" || Form1.days[3].condition == "302"
-                 || Form1.days[3].condition == "310" || Form1.days[3].condition == "311" || Form1.days[3].condition == "312"
-                 || Form1.days[3].condition == "313" || Form1.days[3].condition == "314" || Form1.days[3].condition == "321"
-                 || Form1.days[3].condition == "500" || Form1.days[3].condition == "501" || Form1.days[3].condition == "502"
-                 || Form1.days[3].condition == "503" || Form1.days[3].condition == "504" || Form1.days[3].condition == "511"
-                 || Form1.days[3].condition == "520" || Form1.days[3].condition == "521" || Form1.days[3].condition == "522"
-                 || Form1.days[3].condition == "531")
+            else if (temp3 > 299 && temp3 < 532)
             {
                 this.pictureDay3.Image = Properties.Resources.smallRain;
             }
-            else if (Form1.days[3].condition == "600" || Form1.days[3].condition == "601" || Form1.days[3].condition == "602"
-                 || Form1.days[3].condition == "611" || Form1.days[3].condition == "612" || Form1.days[3].condition == "613"
-                 || Form1.days[3].condition == "615" || Form1.days[3].condition == "616" || Form1.days[3].condition == "620"
-                 || Form1.days[3].condition == "621" || Form1.days[3].condition == "622")
+            else if (temp3 > 599 && temp3 < 623)
             {
                 this.pictureDay3.Image = Properties.Resources.smallSnow;
             }
-            else if (Form1.days[3].condition == "801" || Form1.days[3].condition == "802" || Form1.days[3].condition == "803"
-                 || Form1.days[3].condition == "804")
+            else if (temp3 > 800 && temp3 < 805)
             {
                 this.pictureDay3.Image = Properties.Resources.smallCloud;
             }
             else
             {
-                this.pictureDay1.Image = Properties.Resources.smallCloud;
+                this.pictureDay3.Image = Properties.Resources.smallCloud;
             }
         }
 
