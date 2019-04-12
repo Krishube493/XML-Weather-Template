@@ -88,7 +88,7 @@ namespace XMLWeather
             }
 
             //day 3 conditions
-            int temp3 = Convert.ToInt32(Form1.days[2].condition);
+            int temp3 = Convert.ToInt32(Form1.days[3].condition);
 
             if (temp3 == 800)
             {
