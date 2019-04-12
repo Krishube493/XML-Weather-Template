@@ -44,20 +44,20 @@
             // 
             this.cityOutput.AutoSize = true;
             this.cityOutput.BackColor = System.Drawing.Color.Transparent;
-            this.cityOutput.Font = new System.Drawing.Font("Mixage Bk BT", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cityOutput.Font = new System.Drawing.Font("Perpetua Titling MT", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityOutput.ForeColor = System.Drawing.Color.White;
             this.cityOutput.Location = new System.Drawing.Point(72, 70);
             this.cityOutput.Name = "cityOutput";
-            this.cityOutput.Size = new System.Drawing.Size(49, 24);
+            this.cityOutput.Size = new System.Drawing.Size(61, 24);
             this.cityOutput.TabIndex = 22;
             this.cityOutput.Text = "City";
             // 
             // maxOutput
             // 
             this.maxOutput.BackColor = System.Drawing.Color.Transparent;
-            this.maxOutput.Font = new System.Drawing.Font("Modern880 BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maxOutput.Font = new System.Drawing.Font("Zurich XBlk BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maxOutput.ForeColor = System.Drawing.Color.White;
-            this.maxOutput.Location = new System.Drawing.Point(455, 249);
+            this.maxOutput.Location = new System.Drawing.Point(442, 255);
             this.maxOutput.Name = "maxOutput";
             this.maxOutput.Size = new System.Drawing.Size(113, 18);
             this.maxOutput.TabIndex = 32;
@@ -66,20 +66,20 @@
             // 
             this.maxLabel.AutoSize = true;
             this.maxLabel.BackColor = System.Drawing.Color.Transparent;
-            this.maxLabel.Font = new System.Drawing.Font("Modern880 BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maxLabel.Font = new System.Drawing.Font("Zurich XBlk BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maxLabel.ForeColor = System.Drawing.Color.White;
-            this.maxLabel.Location = new System.Drawing.Point(408, 249);
+            this.maxLabel.Location = new System.Drawing.Point(395, 255);
             this.maxLabel.Name = "maxLabel";
-            this.maxLabel.Size = new System.Drawing.Size(41, 19);
+            this.maxLabel.Size = new System.Drawing.Size(46, 19);
             this.maxLabel.TabIndex = 31;
             this.maxLabel.Text = "Max";
             // 
             // minOutput
             // 
             this.minOutput.BackColor = System.Drawing.Color.Transparent;
-            this.minOutput.Font = new System.Drawing.Font("Modern880 BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minOutput.Font = new System.Drawing.Font("Zurich XBlk BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minOutput.ForeColor = System.Drawing.Color.White;
-            this.minOutput.Location = new System.Drawing.Point(113, 249);
+            this.minOutput.Location = new System.Drawing.Point(100, 255);
             this.minOutput.Name = "minOutput";
             this.minOutput.Size = new System.Drawing.Size(113, 18);
             this.minOutput.TabIndex = 30;
@@ -88,11 +88,11 @@
             // 
             this.minLabel.AutoSize = true;
             this.minLabel.BackColor = System.Drawing.Color.Transparent;
-            this.minLabel.Font = new System.Drawing.Font("Modern880 BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minLabel.Font = new System.Drawing.Font("Zurich XBlk BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minLabel.ForeColor = System.Drawing.Color.White;
-            this.minLabel.Location = new System.Drawing.Point(67, 249);
+            this.minLabel.Location = new System.Drawing.Point(54, 255);
             this.minLabel.Name = "minLabel";
-            this.minLabel.Size = new System.Drawing.Size(40, 19);
+            this.minLabel.Size = new System.Drawing.Size(43, 19);
             this.minLabel.TabIndex = 29;
             this.minLabel.Text = "Min";
             // 
@@ -109,11 +109,11 @@
             // 
             this.tempLabel.AutoSize = true;
             this.tempLabel.BackColor = System.Drawing.Color.Transparent;
-            this.tempLabel.Font = new System.Drawing.Font("Mixage Bk BT", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tempLabel.Font = new System.Drawing.Font("Stencil Std", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tempLabel.ForeColor = System.Drawing.Color.White;
-            this.tempLabel.Location = new System.Drawing.Point(206, 136);
+            this.tempLabel.Location = new System.Drawing.Point(219, 136);
             this.tempLabel.Name = "tempLabel";
-            this.tempLabel.Size = new System.Drawing.Size(168, 48);
+            this.tempLabel.Size = new System.Drawing.Size(222, 53);
             this.tempLabel.TabIndex = 26;
             this.tempLabel.Text = "Current";
             // 

@@ -64,9 +64,11 @@ namespace XMLWeather
                 this.BackgroundImageLayout = ImageLayout.Center;
             }
            else
-           {
-                //Image of atmosphere
-           }
+            {
+                this.BackgroundImage = Properties.Resources.Cloudy;
+                this.BackgroundImageLayout = ImageLayout.Center;
+            }
+
         }
 
         private void forecastLabel_Click(object sender, EventArgs e)

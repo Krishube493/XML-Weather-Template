@@ -67,7 +67,7 @@ namespace XMLWeather
             }
             else
             {
-                //Image of atmosphere
+                this.pictureDay1.Image = Properties.Resources.smallCloud;
             }
 
             //day 2 conditions 
@@ -106,7 +106,7 @@ namespace XMLWeather
             }
             else
             {
-                //Image of atmosphere
+                this.pictureDay1.Image = Properties.Resources.smallCloud;
             }
 
             //day 3 conditions
@@ -145,7 +145,7 @@ namespace XMLWeather
             }
             else
             {
-                //Image of atmosphere
+                this.pictureDay1.Image = Properties.Resources.smallCloud;
             }
         }
 
